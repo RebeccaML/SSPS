@@ -1,0 +1,223 @@
+/* CSS for Shining Stars Preschool */
+
+html, body {
+	background: #FFFF33;
+	font-size: 16px;
+	font-family: sans-serif;
+	line-height: 150%;
+	margin: 0;
+	padding: 0;
+}
+#container {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	margin-left: 15%;
+	width: 70%;
+	background: #FFFFFF;
+}
+#header {
+	height: 20%;
+}
+#header img:first-child {
+	float: left;
+	padding-left: 10px;
+}
+#header img {
+	height: 200px;
+}
+#header h1 {
+	float: right;
+	padding: 25px;
+	margin-top: 30px;
+	font-size: 1.1em;
+	line-height: 1.8em;
+	font-weight: normal;
+}
+#nav {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	background: #FFFFCC;
+	height: 80px;
+	font-size: 1.4em;
+	font-family: cursive;
+	clear: both;
+}
+#nav p {
+	padding-top: 5px;
+	text-align: center;
+}
+#nav a {
+	text-decoration: none;
+	color: #000000;
+	padding: 20px;
+}
+#nav a:hover {
+	background-color: #CC99FF;
+}
+#nav a:visited {
+}
+#nav a:active {
+}
+#bodycontainer {
+	background: #FFFFFF;
+	height: 70%;
+	padding: 20px;
+}
+#leftcontent {
+	float: left;
+	padding: 15px;
+	width: 45%;
+}
+#leftcontent ul {
+	list-style-type: none;
+}
+#leftcontent img {
+	height: 350px;
+	box-shadow: 6px 6px 5px 5px #999999;
+}
+.image {
+	text-align: center;
+	padding: 10px;
+}
+#rightcontent {
+	float: right;
+	padding: 15px;
+	width: 50%;
+}
+#rightcontent img {
+	height: 350px;
+	box-shadow: 6px 6px 5px 5px #999999;
+}
+#rightcontent ol {
+	color: #660099;
+	line-height: 175%;
+	font-size: 1.2em;
+}
+#rightcontent ol a{
+	color: #660099;
+}
+#rightcontent ol a:hover{
+	text-decoration: none;
+}
+#rightcontent ol a:visited{
+}
+#rightcontent ol a:active{
+}
+#footer {
+	border-top: 2px solid black;
+	background: #FFFFCC;
+	padding: 10px;
+	height: 10%;
+	clear: both;
+}
+h2 {
+	font-family: cursive;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+iframe {
+	height: 400px;
+	width: 400px;
+	padding: 10px;
+}
+.purple {
+	background-color: #660099;
+	box-shadow: 6px 6px 5px 5px #999999;	
+}
+.blue {
+	background-color: #006699;
+	box-shadow: 6px 6px 5px 5px #999999;
+}
+#homebox1 {
+	width: 500px;
+	height: 100px;
+	padding: 20px;
+	padding-top: 40px;
+	background-color: #660099; 
+	color: white;
+	font-size: 1.3em;
+	text-align: center;
+	box-shadow: 6px 6px 5px 5px #999999;
+}
+#homebox2 {
+	width: 500px;
+	height: 110px;
+	padding: 20px;
+	background-color: #339999;
+	color: white;
+	font-size: 1.3em;
+	text-align: center;
+	box-shadow: 6px 6px 5px 5px #999999;
+}
+#homebox3 {
+	width: 500px;
+	height: 100px;
+	padding: 20px;
+	padding-top: 30px;
+	background-color: #006699;
+	color: white;
+	font-size: 1.3em;
+	text-align: center;
+	box-shadow: 6px 6px 5px 5px #999999;
+}
+.hours {
+	text-align: center;
+}
+.button {
+	background: #FFFF33;
+	border: 1px solid #660099;
+	color: #660099;
+	font-weight: bold;
+}
+.morning {
+	color: #660099;
+	font-weight: bold;
+}
+td.morning {
+	color: #660099;
+	font-weight: normal;
+}
+.afternoon {
+	color: #006699;
+	font-weight: bold;
+}
+td.afternoon {
+	color: #006699;
+	font-weight: normal;
+}
+form {
+	margin-left: 25%;
+}
+form p {
+	text-align: left;
+	width: 270px;
+	color: #660099;
+	font-weight: bold;
+}
+p input {
+	float: right;
+	width: 200px;
+	border: 1px solid black;
+}
+textarea {
+	border: 1px solid black;
+}
+form > input {
+	margin-left: 25%;
+}
+table {
+	border-collapse: collapse;
+}
+table, th, td{
+	border: 1px solid black;
+}
+tr th {
+	width: 100px;
+}
+tr th:last-child {
+	width: 500px;
+}
+th, td {
+	padding: 3px;
+}
