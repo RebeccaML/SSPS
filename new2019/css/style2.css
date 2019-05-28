@@ -2,25 +2,58 @@ html, body {
     height: 100%; 
     margin: 0;
     padding: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
     font-size: 17px;
 }
 body {
     display: flex;
     flex-direction: column;
+    background-color: yellow;
 }
 #container {
     flex: 1 0 auto;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
 }
+
+/* Header */
+
+.header-img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.address {
+    text-align: right;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+
+/* Navigation */
+
 nav {
     background-color: yellow;
     font-family: Acme, sans-serif;
     font-size: 1.2em;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
+
+/* Footer */
+
 footer {
     flex-shrink: 0;
     background-color: yellow;
-}
-img {
-    width: 200px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
 }
