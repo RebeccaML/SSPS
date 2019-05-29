@@ -14,6 +14,7 @@
 
 <body>
     <div id="container">
+        <!-- Header -->
         <header>
             <div class="row">
                 <div class="col-md-4">
@@ -26,56 +27,77 @@
                 </div>
             </div>
         </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">Mission</a>
-            <a href="teacher.html">About the Teacher</a>
-            <a href="enroll.html">Enrollment</a>
-            <a href="contact.html">Contact</a>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">Mission</a></li>
+                    <li class="nav-item"><a class="nav-link" href="teacher.html">About the Teacher</a></li>
+                    <li class="nav-item"><a class="nav-link" href="enroll.html">Enrollment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
+        <!-- Main Content -->
         <main>
-            <img src="images/welcome.jpg" alt="Welcome" />
-            <h2>Enrollment Forms</h2>
-            <p>
-                Below are all the required forms for enrollment. Please print and fill them out.
-            </p>
-            <h3>Current</h3>
-            <ol>
-                <li><a href="forms/RegistrationForm2017.pdf" target="_blank" title="Registration Form">Registration</a>
-                </li>
-                <li><a href="forms/ImmunizationForm.pdf" target="_blank" title="Immunization Form">Immunization</a></li>
-                <li><a href="forms/FieldTrip2017.pdf" target="_blank" title="Field Trip Form">Field
-                        Trip</a></li>
-                <li><a href="forms/PictureConsent2017.pdf" target="_blank" title="Picture Consent Form">Picture
-                        Consent</a></li>
-                <li><a href="forms/AgreementContract3yo2017.pdf" target="_blank"
-                        title="3yo Agreement Contract">Agreement Contract (3 year old class)</a>
-                </li>
-                <li><a href="forms/AgreementContract4yo2017.pdf" target="_blank"
-                        title="4yo Agreement Contract">Agreement Contract (4 year old class)</a>
-                </li>
-                <li><a href="forms/ShiningStarsPreschoolHandbook03-28-17.pdf" target="_blank"
-                        title="Parent Handbook">Parent Handbook</a></li>
-                <li><a href="forms/ReceiptOfHandbook.pdf" target="_blank" title="Receipt of Handbook">Receipt of
-                        Handbook</a></li>
-                <li><a href="forms/Academic-Calendar-2018-2019-TT.pdf" target="_blank"
-                        title="3yo School Year Calendar">School Year Calendar (3 year old
-                        class)</a></li>
-                <li><a href="forms/Academic-Calendar-2018-2019-MWF.pdf" target="_blank"
-                        title="4yo School Year Calendar">School Year Calendar (4 year old
-                        class)</a></li>
-            </ol>
-            <h3>New for 2019-2020</h3>
-            <ol>
-                <li><a href="forms/AgreementContract3yo2019-2020.pdf" target="_blank"
-                        title="3yo Agreement Contract">Agreement Contract (3 year old class)</a>
-                </li>
-                <li><a href="forms/AgreementContract4yo2019-2020.pdf" target="_blank"
-                        title="4yo Agreement Contract">Agreement Contract (4 year old class)</a>
-                </li>
-                <li><a href="forms/ShiningStarsPreschoolHandbook2019-2020.pdf" target="_blank"
-                        title="Parent Handbook">Parent Handbook</a></li>
-            </ol>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/welcome.jpg" alt="Welcome" />
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="h-blue">Enrollment Forms</h2>
+                        <p>
+                            Below are all the required forms for enrollment. Please print and fill them out.
+                        </p>
+                        <h3>Current</h3>
+                        <ol>
+                            <li><a href="forms/RegistrationForm2017.pdf" target="_blank"
+                                    title="Registration Form">Registration</a>
+                            </li>
+                            <li><a href="forms/ImmunizationForm.pdf" target="_blank"
+                                    title="Immunization Form">Immunization</a></li>
+                            <li><a href="forms/FieldTrip2017.pdf" target="_blank" title="Field Trip Form">Field
+                                    Trip</a></li>
+                            <li><a href="forms/PictureConsent2017.pdf" target="_blank"
+                                    title="Picture Consent Form">Picture
+                                    Consent</a></li>
+                            <li><a href="forms/AgreementContract3yo2017.pdf" target="_blank"
+                                    title="3yo Agreement Contract">Agreement Contract (3 year old class)</a>
+                            </li>
+                            <li><a href="forms/AgreementContract4yo2017.pdf" target="_blank"
+                                    title="4yo Agreement Contract">Agreement Contract (4 year old class)</a>
+                            </li>
+                            <li><a href="forms/ShiningStarsPreschoolHandbook03-28-17.pdf" target="_blank"
+                                    title="Parent Handbook">Parent Handbook</a></li>
+                            <li><a href="forms/ReceiptOfHandbook.pdf" target="_blank"
+                                    title="Receipt of Handbook">Receipt of
+                                    Handbook</a></li>
+                            <li><a href="forms/Academic-Calendar-2018-2019-TT.pdf" target="_blank"
+                                    title="3yo School Year Calendar">School Year Calendar (3 year old
+                                    class)</a></li>
+                            <li><a href="forms/Academic-Calendar-2018-2019-MWF.pdf" target="_blank"
+                                    title="4yo School Year Calendar">School Year Calendar (4 year old
+                                    class)</a></li>
+                        </ol>
+                        <h3>New for 2019-2020</h3>
+                        <ol>
+                            <li><a href="forms/AgreementContract3yo2019-2020.pdf" target="_blank"
+                                    title="3yo Agreement Contract">Agreement Contract (3 year old class)</a>
+                            </li>
+                            <li><a href="forms/AgreementContract4yo2019-2020.pdf" target="_blank"
+                                    title="4yo Agreement Contract">Agreement Contract (4 year old class)</a>
+                            </li>
+                            <li><a href="forms/ShiningStarsPreschoolHandbook2019-2020.pdf" target="_blank"
+                                    title="Parent Handbook">Parent Handbook</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer>
             © 2019 Shining Stars Preschool
