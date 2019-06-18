@@ -14,7 +14,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: #FFEB3B;
+    background-image: linear-gradient(#FFEB3B, #FFFFFF, #FFEB3B);
 }
 #container {
     flex: 1 0 auto;
@@ -92,7 +92,6 @@ nav {
     margin: 20px 0 20px 20px;
     box-shadow: 5px 5px 5px 5px #BDBDBD;
 }
-
 
 /* Footer */
 
@@ -186,7 +185,7 @@ iframe {
 
 .contact {
     font-size: 1.3rem;
-    width: 60%;
+    width: 90%;
     margin: auto;
     padding: 40px 20px;
 }
@@ -239,8 +238,10 @@ th {
     html, body {
         font-size: 16px;
     }
+    #container {
+        width: 100%;
+    }
     .contact {
-        font-size: 1.1rem;
         width: 100%;
         margin: auto;
         padding: 20px 5px;
@@ -260,6 +261,9 @@ th {
     td, th {
         padding: 3px;
         font-size: 15px;
+    }
+    footer {
+        width: 100%;
     }
 }
 
