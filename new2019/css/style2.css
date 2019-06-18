@@ -1,6 +1,7 @@
-/* Colors: #F8FE34 (yellow)
-           #52049F (purple)
-           #04279F (blue)
+/* Colors: #FFEB3B (yellow)
+           #512DA8 (purple)
+           #0097A7 (cyan)
+           #1976D2 (blue)
 */
 
 html, body {
@@ -13,7 +14,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+    background-color: #FFEB3B;
 }
 #container {
     flex: 1 0 auto;
@@ -40,7 +41,7 @@ body {
 /* Navigation */
 
 nav {
-    background-color: #F8FE34;
+    background-color: #FFEB3B;
     font-family: Acme, sans-serif;
     font-size: 1.2em;
     border-top: 2px solid black;
@@ -74,7 +75,7 @@ nav {
 
 footer {
     flex-shrink: 0;
-    background-color: #F8FE34;
+    background-color: #FFEB3B;
     width: 80%;
     margin: auto;
     text-align: center;
@@ -93,12 +94,12 @@ img {
 /* Headings */
 
 .h-purple {
-    background-color: #52049F;
+    background-color: #512DA8;
     color: white;
 }
 
 .h-blue {
-    background-color: #04279F;
+    background-color: #0097A7;
     color: white;
 
 }
