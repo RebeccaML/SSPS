@@ -8,7 +8,7 @@ html, body {
     height: 100%; 
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
 body {
@@ -36,21 +36,21 @@ body {
     text-align: right;
     padding: 20px 40px;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 /* Navigation */
 
 nav {
     background-color: #FFEB3B;
-    font-family: Acme, sans-serif;
-    font-size: 1.2em;
+    font-family: "Bree Serif", sans-serif;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
 
 .nav-link {
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .nav-link:hover {
@@ -71,6 +71,29 @@ nav {
     border-color: black;
 }
 
+/* Home */
+
+.home-box1 {
+    background-color: #512DA8;
+}
+
+.home-box2 {
+    background-color: #0097A7;
+}
+
+.home-box3 {
+    background-color: #1976D2;
+}
+.home-box1, .home-box2, .home-box3 {
+    color: #FFFFFF;
+    font-size: 1.35rem;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0 20px 20px;
+    box-shadow: 5px 5px 5px 5px #BDBDBD;
+}
+
+
 /* Footer */
 
 footer {
@@ -78,6 +101,7 @@ footer {
     background-color: #FFEB3B;
     width: 80%;
     margin: auto;
+    font-family: "Bree Serif", sans-serif;
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
@@ -87,19 +111,156 @@ footer {
     border-top: 2px solid black;
 }
 
-img {
-    max-width: 100%;
-}
-
 /* Headings */
 
 .h-purple {
     background-color: #512DA8;
-    color: white;
 }
 
 .h-blue {
     background-color: #0097A7;
-    color: white;
-
 }
+
+h2 {
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 5px 5px 5px 5px #BDBDBD;
+    font-family: "Bree Serif", sans-serif;
+}
+
+h3 {
+    font-family: "Bree Serif", sans-serif;
+}
+
+/* Text Colors */
+
+.purple {
+    color: #512DA8;
+}
+p .purple {
+    font-weight: bold;
+}
+.blue {
+    color: #1976D2;
+}
+
+/* Images */
+
+.lg-photo {
+    display: block;
+    margin: 25px auto;
+    box-shadow: 5px 5px 5px 5px #BDBDBD;
+    width: 80%;
+    height: auto;
+}
+
+.sm-photo {
+    display: block;
+    margin: 25px auto;
+    box-shadow: 5px 5px 5px 5px #BDBDBD;
+    width: 50%;
+    height: auto;
+}
+
+.facebook {
+    display: block;
+    margin: 20px auto;
+    width: 30%;
+    height: auto;
+}
+
+.carousel {
+    padding: 20px 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact */
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.contact {
+    font-size: 1.3rem;
+    width: 60%;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.contact-label {
+    font-weight: bold;
+}
+
+.contact-info {
+    float: right;
+}
+
+/* Schedule */
+.hours {
+    text-align: center;
+    font-weight: bold;
+}
+table {
+    margin: 10px auto;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+td, th {
+    padding: 5px;
+}
+th {
+    text-align: center;
+}
+
+/* Enrollment */
+
+.forms li {
+    color: #512DA8;;
+    font-size: 1.2rem;
+}
+.forms a {
+    color: #512DA8;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.forms a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    html, body {
+        font-size: 16px;
+    }
+    .contact {
+        font-size: 1.1rem;
+        width: 100%;
+        margin: auto;
+        padding: 20px 5px;
+    }
+    .facebook {
+        width: 50%;
+    }
+    .sm-photo {
+        width: 70%;
+    }
+    .lg-photo {
+        width: 90%;
+    }
+    .home-box1, .home-box2, .home-box3 {
+        margin: 15px 15px;
+    }
+    td, th {
+        padding: 3px;
+        font-size: 15px;
+    }
+}
+
+
