@@ -4,18 +4,21 @@
            #1976D2 (blue)
 */
 
-html, body {
-    height: 100%; 
+html,
+body {
+    height: 100%;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
+
 body {
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(#FFEB3B, #FFFFFF, #FFEB3B);
 }
+
 #container {
     flex: 1 0 auto;
     width: 80%;
@@ -64,7 +67,7 @@ nav {
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+}
 
 .navbar-toggler {
     border-color: black;
@@ -83,7 +86,10 @@ nav {
 .home-box3 {
     background-color: #1976D2;
 }
-.home-box1, .home-box2, .home-box3 {
+
+.home-box1,
+.home-box2,
+.home-box3 {
     color: #FFFFFF;
     font-size: 1.35rem;
     text-align: center;
@@ -137,9 +143,11 @@ h3 {
 .purple {
     color: #512DA8;
 }
+
 p .purple {
     font-weight: bold;
 }
+
 .blue {
     color: #1976D2;
 }
@@ -203,16 +211,22 @@ iframe {
     text-align: center;
     font-weight: bold;
 }
+
 table {
     margin: 10px auto;
 }
 
-table, td, th {
+table,
+td,
+th {
     border: 1px solid black;
 }
-td, th {
+
+td,
+th {
     padding: 5px;
 }
+
 th {
     text-align: center;
 }
@@ -220,9 +234,11 @@ th {
 /* Enrollment */
 
 .forms li {
-    color: #512DA8;;
+    color: #512DA8;
+    ;
     font-size: 1.2rem;
 }
+
 .forms a {
     color: #512DA8;
     text-decoration: underline;
@@ -235,36 +251,67 @@ th {
 }
 
 @media only screen and (max-width: 1200px) {
-    html, body {
+    html,
+    body {
         font-size: 16px;
     }
+
     #container {
         width: 100%;
     }
+
+    .header-img {
+        padding: 5px;
+    }
+
+    .address {
+        padding: 5px 25px;
+    }
+
     .contact {
         width: 100%;
         margin: auto;
         padding: 20px 5px;
+        font-size: 1.2rem;
     }
+
     .facebook {
         width: 50%;
     }
+
     .sm-photo {
         width: 70%;
     }
+
     .lg-photo {
         width: 90%;
     }
-    .home-box1, .home-box2, .home-box3 {
+
+    .home-box1,
+    .home-box2,
+    .home-box3 {
         margin: 15px 15px;
     }
-    td, th {
+
+    td,
+    th {
         padding: 3px;
         font-size: 15px;
     }
+
     footer {
         width: 100%;
     }
 }
 
+@media only screen and (max-width: 767px) {
+    .header-img {
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
 
+    .address {
+        text-align: center;
+    }
+}
