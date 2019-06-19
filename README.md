@@ -1,10 +1,3 @@
 # SSPS
 
-WIP
-
-To Do:
-
--Preload slideshow images
--Add some classes for text decoration like in original site
--Fix some minor positioning/sizing issues
--Clean up old files
+Current version is live at http://www.shiningstarsps.com/
