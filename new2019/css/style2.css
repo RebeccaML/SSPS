@@ -54,7 +54,6 @@ nav {
 }
 
 .nav-link:hover {
-    letter-spacing: 1px;
     color: black;
     text-decoration: underline;
 }
@@ -126,6 +125,7 @@ h2 {
     margin: 10px 0;
     box-shadow: 5px 5px 5px 5px #BDBDBD;
     font-family: "Bree Serif", sans-serif;
+    font-size: 1.6rem;
 }
 
 h3 {
